@@ -1,0 +1,70 @@
+@media only screen and (max-width: 450px) {
+    .j-mw-section {
+        max-width: 350px;
+        min-width: 350px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    nav {
+        position: static;
+    }
+
+    /* SECTION 1 */
+
+    .section-1 {
+        background-position: 150% -100px;
+        background-repeat: no-repeat;
+        position: static;
+        height: 700px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .section-1-content {
+        width: 100%;
+        margin-top: 50px;
+        margin-bottom: 10px;
+        display: grid;
+        grid-gap: 25px
+    }
+
+    .section-1 img {
+        position: static;
+        left: 0;
+        top: 0;
+        content:url("assets/image-hero-mobile.png");
+    }
+
+    /* SECTION 2 */
+
+    .section-2-body {
+        display: grid;
+        grid-gap: 30px;
+        grid-template-columns: repeat(1, 2fr);
+        row-gap: 20px;
+    }
+
+    .section-2-content {
+        padding: 20px 20px;
+        margin: 0;
+        height: auto;
+    }
+
+    .section-2-content-2 {
+        height: auto;
+        padding: 20px 20px;
+    }
+
+    /* FOOTER */
+
+    footer {
+        padding: 50px 0;
+        margin-top: 80px;
+    }
+}
