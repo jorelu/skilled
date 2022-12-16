@@ -125,7 +125,7 @@ nav {
     display: grid;
     grid-gap: 30px;
     grid-template-columns: repeat(3, 2fr);
-    row-gap: 100px;
+    row-gap: 150px;
 }
 
 .section-2-content
