@@ -1,72 +1,191 @@
-@media only screen and (max-width: 450px) {
-    .j-mw-section {
-        max-width: 350px;
-        min-width: 350px;
-    }
+body {
+    font-size: 20px;
+    margin: 0;
+    font-family: 'Questrial', sans-serif;
+    letter-spacing: 1.5px;
+    overflow-x: hidden;
+}
 
-    h1 {
-        font-size: 40px;
-    }
+.j-button {
+    color: white;
+    padding: 20px;
+    border-radius: 50px;
+    font-weight: bold;
+    text-decoration: none;
+}
 
-    nav {
-        position: static;
-    }
+.j-button:hover {
+    opacity: .8;
+}
 
-    main {
-        padding-bottom: 80px;
-    }
+.j-button-link {
+    text-decoration: none;
+}
 
-    /* SECTION 1 */
+.j-button-link:hover {
+    opacity: .5;
+}
 
-    .section-1 {
-        background-position: 150% -100px;
-        background-repeat: no-repeat;
-        position: static;
-        height: 700px;
-        left: 0;
-        right: 0;
-        margin: auto;
-        display: flex;
-        flex-direction: column-reverse;
-    }
+.j-text-grey {
+    color: dimgrey;
+}
 
-    .section-1-content {
-        width: 100%;
-        margin-top: 50px;
-        margin-bottom: 10px;
-        display: grid;
-        grid-gap: 25px
-    }
+.j-text-white {
+    color: white;
+}
 
-    .section-1 img {
-        position: static;
-        left: 0;
-        top: 0;
-    }
+.j-bg-blue {
+    background-color: #13183e;
+}
 
-    /* SECTION 2 */
+.j-text-purple {
+    color: rgb(203, 84, 203);
+}
 
-    .section-2-body {
-        display: grid;
-        grid-gap: 30px;
-        grid-template-columns: repeat(1, 2fr);
-        row-gap: 20px;
-    }
+.j-bg-orange-purple {
+    background-image: linear-gradient(#fe5e60, rgb(203, 84, 203));
+}
 
-    .section-2-content {
-        padding: 20px 20px;
-        margin: 0;
-        height: auto;
-    }
+.j-bg-purple-orange {
+    background-image: linear-gradient(rgb(169, 69, 169),rgb(169, 69, 169), #fe5e60);
+}
 
-    .section-2-content-2 {
-        height: auto;
-        padding: 20px 20px;
-    }
+.j-mw-section {
+    max-width: 1280px;
+    min-width: 980px;
+}
 
-    /* FOOTER */
+h1 {
+    font-size: 60px;
+}
 
-    footer {
-        padding: 50px 0;
-    }
+p {
+    line-height: 25px;
+}
+
+nav {
+    margin: 0 auto;
+    padding: 50px 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 2;
+}
+
+.nav-body {
+    display: inline;
+    float: right;
+}
+
+main {
+    background: linear-gradient(180deg, #FFFFFF 0%, #F0F1FF 100%);
+    padding-bottom: 200px;
+}
+
+/* SECTION 1 */
+
+.section-1 {
+    background-position: 150% -100px;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 900px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.section-1-body {
+    display: grid;
+    grid-gap: 10px;
+}
+
+.section-1-content {
+    width: 42%;
+    margin-top: 300px;
+    margin-bottom: 200px;
+    display: grid;
+    grid-gap: 50px
+}
+
+.section-1 h1 {
+    color: #13183e;
+    margin: 0;
+    font-weight: 1000;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.section-1 img {
+    content:url("assets/image-hero-desktop.png");
+    position: absolute;
+    left: 700px;
+    top: -100px
+}
+
+/* SECTION 2 */
+
+.section-2 {
+    margin: auto;
+    height: auto;
+}
+
+.section-2-body {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(3, 2fr);
+    row-gap: 150px;
+}
+
+.section-2-content
+, .section-2-content-2 {
+    padding: 60px 20px 0;
+    margin-top: 25px;
+    height: 100%;
+}
+
+.section-2-content {
+    border-radius: 15px;
+}
+
+.section-2-content-2 {
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: -6px 14px 74px -36px rgba(0,0,0,0.45);
+    -webkit-box-shadow: -6px 14px 74px -36px rgba(0,0,0,0.45);
+    -moz-box-shadow: -6px 14px 74px -36px rgba(0,0,0,0.45);
+}
+
+.section-2-content h1 {
+    font-size: 40px;
+}
+
+.section-2-content-2 h2 {
+    font-size: 30px;
+}
+
+.section-2-content-2 p {
+    min-height: 115px;
+}
+
+.section-2-icons {
+    position: absolute;
+    z-index: 2;
+    padding-left: 20px;
+}
+
+/* FOOTER */
+
+footer {
+    padding: 50px 0;
+}
+
+.footer-body {
+    margin: 0 auto;
+    z-index: 2;
+    width: 100%;
+    height: auto;
+}
+
+.footer-container {
+    float: right;
 }
