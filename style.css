@@ -101,7 +101,7 @@ main {
 }
 
 .section-1-content {
-    width: 50%;
+    width: 42%;
     margin-top: 300px;
     margin-bottom: 200px;
     display: grid;
@@ -111,6 +111,8 @@ main {
 .section-1 h1 {
     color: #13183e;
     margin: 0;
+    font-weight: 1000;
+    font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
 .section-1 img {
@@ -157,7 +159,7 @@ main {
     font-size: 40px;
 }
 
-.section-2-content-2 h1 {
+.section-2-content-2 h2 {
     font-size: 30px;
 }
 
